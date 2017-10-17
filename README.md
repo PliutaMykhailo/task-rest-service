@@ -7,9 +7,13 @@ $ vagrant up
 $ vagrant halt
 
 Service is available:
-localhost:8081/contacts    "all"   
+
+localhost:8081/contacts    "all"
+   
 localhost:8081/contacts?nameFilter=A    "^A.*$"
+
 localhost:8081/contacts?nameFilter=B    "^.*[aei].*$" 
+
 
 Postgresq:
 localhost:5432
