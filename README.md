@@ -1,4 +1,4 @@
-# task2
+# task-rest-service
 
  Start up the virtual machine:
 $ vagrant up
