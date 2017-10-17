@@ -22,5 +22,5 @@ localhost:5432 <br>
   Password: dbpass <br>
   
   
-  [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
+  [![Build Status](https://travis-ci.org/PliutaMykhailo/task-rest-service.svg?branch=master)](https://travis-ci.org/PliutaMykhailo/task-rest-service)
   [![CircleCI Build Status](https://circleci.com/gh/PliutaMykhailo/task-rest-service.svg?style=shield)](https://circleci.com/gh/PliutaMykhailo/task-rest-service)
