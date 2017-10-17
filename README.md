@@ -16,10 +16,10 @@ localhost:8081/contacts?nameFilter=B    "^.*[aei].*$"
 
 
 Postgresq:
-localhost:5432
-  Database: myapp 
-  Username: myapp
-  Password: dbpass
+localhost:5432 <br>
+  Database: myapp <br>
+  Username: myapp <br>
+  Password: dbpass <br>
   
   
   [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
