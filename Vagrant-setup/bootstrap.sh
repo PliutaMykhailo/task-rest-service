@@ -110,7 +110,8 @@ echo "Installing Java 8.."
 sudo add-apt-repository ppa:openjdk-r/ppa -y
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk -y
-
+echo "Installing Java 8.update"
+echo 2 | sudo update-alternatives --config java
 cd /
 cd /mnt/bootstrap
 mvn clean install
