@@ -98,7 +98,7 @@ date > "$PROVISIONED_ON"
 
 echo "Successfully created PostgreSQL dev virtual machine."
 echo ""
-print_db_usage
+
 sudo apt-get update
 
 echo "Installing Git.."
@@ -106,16 +106,13 @@ sudo apt-get install -y git
 echo "Installing Maven.."
 sudo apt-get install -y maven
 sudo apt-get install python-software-properties -y
-echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
-sudo add-apt-repository ppa:webupd8team/java -y
-sudo apt-get update
 echo "Installing Java 8.."
-sudo apt-get install oracle-java8-installer -y
-echo "Setting environment variables for Java 8.."
-sudo apt-get install -y oracle-java8-set-default
-sudo apt-get install -y
+sudo add-apt-repository ppa:openjdk-r/ppa -y
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk -y
+
 cd /
 cd /mnt/bootstrap
 mvn clean install
-
+print_db_usage
 
